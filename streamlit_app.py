@@ -4,6 +4,6 @@ import numpy as np
 with st.chat_message("user"):
     st.write("Hello 👋")
 
-with st.chat_messge("assistant"):
+with st.chat_message("assistant"):
     st.write("Hello human")
-    st.bar_chart(np.random.randn(30,3))
+    st.bar_chart(np.random.randn(30, 3))
